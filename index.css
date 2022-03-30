@@ -1,50 +1,25 @@
-*{
-    flex-wrap: wrap;
+.flexcontainer{
+display: flex;
+border: 2px solid rgb(32, 30, 25);
+height: 450px;
+flex-direction: row-reverse;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
 }
-h1{
-    text-decoration: none;
-    text-shadow: 2px;
-    text-align: center;
-    color: maroon;
-}
-#body{
-    background-image: url (https://img3.exportersindia.com/product_images/bc-full/2020/5/7264167/costume-earing-1589826817-5438918.jpeg) ;
-        background-repeat: no-repeat;
-    background-size: cover;
+.fiten{
+    background-color: brown;
+    border: 2px solid black;
+    padding: 5px;margin: 12px;
+    height: 50px;
+    width: 50px;
 
 }
-.nav1{
-  text-align: center;
-    color: black;
-    padding: 8px;
-    margin: 10px;
-
+.item4{
+order: 3;
+flex-grow: 3;
 }
-.nav1 a{
-    background-color: rgb(223, 21, 21);
-    color: rgb(55, 22, 241);
-    padding: 5px;
-    margin: 5px;
- }
-.lo{
-    color: rgb(29, 163, 96);
-    
-    justify-content: end;
-    
-}
-.btn{
-    font-size: large;
-    padding-left: 10px;
-    margin-left: 1100px;
-    justify-content: center;
-    color: blue;
-    background-color: rgb(22, 170, 22);
-    
-}
-.p
-{
-    font-style: italic;
-    font-size: medium;
-    padding: 5px;
-    margin: 10px;
+.item1{
+order: 2;
+flex-grow: 3;
 }
