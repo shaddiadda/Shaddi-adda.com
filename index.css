@@ -1,90 +1,109 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>official website</title>
-    <link rel="stylesheet" href="index.css">
+h1{
+    background-color: rgb(29, 182, 93);
+    text-decoration: solid;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 0px;
+    text-shadow: 2px;
+    text-align: center;
+    color: black;
+    
+}
+h2{
+    text-align: center;
+    background-color: darkorange;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+}
+#body{
+   
+   background-color: yellow;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.nav1{
+  text-align: center;
+    color: black;
+    padding: 8px;
+    margin: 10px;
 
-</head>
-<h1>THE  WEDDING FESTIVAL</h1>
+}
+.nav1 a{
+    background-color: rgb(209, 212, 28);
+    color: rgb(55, 22, 241);
+    padding: 5px;
+    margin: 5px;
+ }
+ .container{
+    display: flex;
+    flex-wrap: wrap;
+    
+    background-color: rgb(241, 19, 30);
+}
+.box{
+    height: 500px;
+    width: 240px;
+    background-color: rgb(15, 211, 211);
+    border: 4px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+.img{
+    height: 180px;
+    width: 240px;
+    background-color: black;
+    background-size: cover;
+}
+ .imgi-1{
 
-<body id="body">
-    <div class="div">
-        <nav class="nav1">
-            <a href="">Home</a>
-            <a href="">contact</a>
-            <a href="">help</a>
-            <a href="">manage</a>
-            <a href="">about us</a>
-        </nav>
-        <a href="http://127.0.0.1:5500/challenge/c1.html"><button class="btn"> next </button></a>
-    </div>
-    <section>
-        <div class="container">
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV_r_7MLv46mEFpFImIh6AP6c1UveidKWROz-E3ipxwmSjY3TMsxeo-yC5OUo6GlJ73a4&usqp=CAU) ;
+    
+    }
+    .imgi-2{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0Iy5SAJhomUIsUM1vhbbVqfJfkcDkwmrJ2w&usqp=CAU);
+    }
+    .imgi-3{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyvw6-p-yCPkNhiTH53AkwMRDbnVQ6wAfdqA&usqp=CAU);
+    }
+    .imgi-4{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnq8ydqIUS56Ll9w1N1p7MDUFf15bM9vHcEw&usqp=CAU);
+    }
+    .imgi-5{
+        background-image: url(https://royalpepper.in/blog/wp-content/uploads/2020/05/wedding-reception-outfits.jpg);
+    }
+    .btn2
+    {
+        background-color: rgb(46, 177, 14);
+        color: black;
+        padding: 10px;
+        margin: 20px 50px;
+        text-align: center;
+        justify-content: center;
+    }
+    .btn{
+        font-size: large;
+        padding-left: 10px;
+        margin-left: 1100px;
+        justify-content: center;
+        color: blue;
+        background-color: rgb(22, 170, 22);
+        
+    }
 
-            <div class="box">
-                <div class="img imgi-1"></div>
-                <h2>mehndi </h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt at corporis pariatur. Voluptates
-                    voluptate temporibus libero nulla, fugit consectetur cumque quod sint earum. Laborum, aspernatur!
-                    Amet
-                    adipisci totam itaque voluptatibus.
-                </p>
 
-                <button class="btn2">see more </button>
-            </div>
-            <div class="box">
-                <div class="img imgi-2"></div>
-                <h2>haldi</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt at corporis pariatur. Voluptates
-                    voluptate temporibus libero nulla, fugit consectetur cumque quod sint earum. Laborum, aspernatur!
-                    Amet
-                    adipisci totam itaque voluptatibus.
-                </p>
-                <button class="btn2">see more</button>
-            </div>
-            <div class="box">
-                <div class="img imgi-3"></div>
-                <h2>sangit</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt at corporis pariatur. Voluptates
-                    voluptate temporibus libero nulla, fugit consectetur cumque quod sint earum. Laborum, aspernatur!
-                    Amet
-                    adipisci totam itaque voluptatibus.
-                </p>
-                <button class="btn2">see more</button>
-            </div>
-            <div class="box">
-                <div class="img imgi-4"></div>
-                <h2>shaadi</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt at corporis pariatur. Voluptates
-                    voluptate temporibus libero nulla, fugit consectetur cumque quod sint earum. Laborum, aspernatur!
-                    Amet
-                    adipisci totam itaque voluptatibus.
-                </p>
-                <button class="btn2">see more</button>
-            </div>
-            <div class="box">
-                <div class="img imgi-5"></div>
-                <h2>reception</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt at corporis pariatur. Voluptates
-                    voluptate temporibus libero nulla, fugit consectetur cumque quod sint earum. Laborum, aspernatur!
-                    Amet
-                    adipisci totam itaque voluptatibus.
-                </p>
-                <button class="btn2">see more</button>
-            </div>
-        </div>
-    </section>
-<footer class="footer">
-    <a href="">Home</a>
-            <a href="">contact</a>
-            <a href="">help</a>
-            <a href="">manage</a>
-            <a href="">about us</a> 
-</footer>
-</body>
-
-</html>
+.p
+{
+    font-style: italic;
+    font-size: medium;
+    padding: 5px;
+    margin: 10px;
+}
+.footer
+{
+    background-color: rgb(209, 212, 28);
+    color: rgb(55, 22, 241);
+    padding: 5px;
+    margin: 5px;   
+}
