@@ -1,25 +1,90 @@
-.flexcontainer{
-display: flex;
-border: 2px solid rgb(32, 30, 25);
-height: 450px;
-flex-direction: row-reverse;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-}
-.fiten{
-    background-color: brown;
-    border: 2px solid black;
-    padding: 5px;margin: 12px;
-    height: 50px;
-    width: 50px;
+<!DOCTYPE html>
+<html lang="en">
 
-}
-.item4{
-order: 3;
-flex-grow: 3;
-}
-.item1{
-order: 2;
-flex-grow: 3;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>official website</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<h1>THE  WEDDING FESTIVAL</h1>
+
+<body id="body">
+    <div class="div">
+        <nav class="nav1">
+            <a href="">Home</a>
+            <a href="">contact</a>
+            <a href="">help</a>
+            <a href="">manage</a>
+            <a href="">about us</a>
+        </nav>
+        <a href="http://127.0.0.1:5500/challenge/c1.html"><button class="btn"> next </button></a>
+    </div>
+    <section>
+        <div class="container">
+
+            <div class="box">
+                <div class="img imgi-1"></div>
+                <h2>mehndi </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt at corporis pariatur. Voluptates
+                    voluptate temporibus libero nulla, fugit consectetur cumque quod sint earum. Laborum, aspernatur!
+                    Amet
+                    adipisci totam itaque voluptatibus.
+                </p>
+
+                <button class="btn2">see more </button>
+            </div>
+            <div class="box">
+                <div class="img imgi-2"></div>
+                <h2>haldi</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt at corporis pariatur. Voluptates
+                    voluptate temporibus libero nulla, fugit consectetur cumque quod sint earum. Laborum, aspernatur!
+                    Amet
+                    adipisci totam itaque voluptatibus.
+                </p>
+                <button class="btn2">see more</button>
+            </div>
+            <div class="box">
+                <div class="img imgi-3"></div>
+                <h2>sangit</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt at corporis pariatur. Voluptates
+                    voluptate temporibus libero nulla, fugit consectetur cumque quod sint earum. Laborum, aspernatur!
+                    Amet
+                    adipisci totam itaque voluptatibus.
+                </p>
+                <button class="btn2">see more</button>
+            </div>
+            <div class="box">
+                <div class="img imgi-4"></div>
+                <h2>shaadi</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt at corporis pariatur. Voluptates
+                    voluptate temporibus libero nulla, fugit consectetur cumque quod sint earum. Laborum, aspernatur!
+                    Amet
+                    adipisci totam itaque voluptatibus.
+                </p>
+                <button class="btn2">see more</button>
+            </div>
+            <div class="box">
+                <div class="img imgi-5"></div>
+                <h2>reception</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt at corporis pariatur. Voluptates
+                    voluptate temporibus libero nulla, fugit consectetur cumque quod sint earum. Laborum, aspernatur!
+                    Amet
+                    adipisci totam itaque voluptatibus.
+                </p>
+                <button class="btn2">see more</button>
+            </div>
+        </div>
+    </section>
+<footer class="footer">
+    <a href="">Home</a>
+            <a href="">contact</a>
+            <a href="">help</a>
+            <a href="">manage</a>
+            <a href="">about us</a> 
+</footer>
+</body>
+
+</html>
